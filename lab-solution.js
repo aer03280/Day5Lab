@@ -71,3 +71,4 @@ function multiplyArray(testArray){
   return [sproArry, 'The numbers ' + ', ' + testArray[0] + ', ' + testArray[1] + ', ' + testArray[2] + ' have a product of ' + sproArry + '.'];
 }
 var testArray = [2,3,4];
+////////////////////////////////////////////////////////////
