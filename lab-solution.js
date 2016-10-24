@@ -28,7 +28,7 @@ function sum(a,b){
   return result;
 }
 
-function multiply(a,b){ 
+function multiply(a,b){
   var productm = a * b;
   return productm;
 }
@@ -48,5 +48,16 @@ testSumAndMultiply(4,7,5);
 
 ////////////////////////////////////////////////////////////
 // PROBLEM 4
+function sum(a,b){
+  var result = a + b;
+}
+
+function sumArray(testArray){
+  var sumArray = sum(testArray[0], testArray[1]);
+  var awsumArray = sum( sumArray , testArray[2]);
+  return [awsumArray, testArray[0] + ', ' + testArray[1] + ', ' + testArray[2] + ' was passed in as an array of numbers, and ' + awsumArray + ' is their sum.'];
+}
+
+var testArray = [2,3,4];
 ////////////////////////////////////////////////////////////
 // PROBELM 5
