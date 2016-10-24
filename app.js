@@ -1,4 +1,10 @@
 'use strict';
+
+// function area (we, he) {
+//   return we + he;
+// }
+// // var sizeone = area(1, 2);
+// area(1,2);
 // /////////////////////////////////////
 // /* Problem 1 (this is your demo that we'll solve in class)
 // Write a function called sum() that takes in two numbers as arguments and then returns an array where the first element is the sum of those numbers, and the second element is a concatenated string that EXACTLY follows this example and uses the values that were input into the function:
@@ -51,32 +57,39 @@ Fourth element: "The product of 4 and 7 and 5 is 140."
 IMPORTANT DETAIL: You may not use the arithmetic operators + and * in this function. To do addition, use your sum() function, and to do multiplication, use your multiply() function that you've already created. You're going to have to be resourceful to figure out how to do this.
 
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumAndMultiply() function and see if the test passes.*/
-
-function sum(a,b){{
+function sum(){
+  var a = 4;
+  var b = 7;
   var result = a + b;
-  //console.log(result , 'The sum of ' + a + ' and ' + b + ' is ' + result + '.');
-  return [result , 'The sum of ' + a + ' and ' + b + ' is ' + result + '.'];
+  return result;
+  console.log('result');
 }
 
-function sumAndMultiply(a,b,c){//eslint-disable-line
-  var sAM = sum( result , c);
-  //var sAMtwo = sum (result , c);
-  //var abba= sum (a , b);
-  //var babba= sum (abba , c);
-  //var sAMtwo= (sum(sum , c));
-  //console.log(sAM , 'The sum of ' + a + ' and ' + b + ' is ' + sAM + '.')
-  return [sAM];
-}
-
-}
-sum(4, 7);
-sumAndMultiply(4 ,7, 5);
-
-// Write your code here
-function sumAndMultiply(a,b,c){ //eslint-disable-line
-
-}
-
+// function multiply(a,b){ //eslint-disable-line
+//   var productm = a * b;
+//   return productm;
+//   console.log(productm);
+// }
+// multiply(5 , 9);
+//
+// function sumAndMultiply(a,b,c){
+//   var abba = sum (a , b);
+//   var babba = sum (abba , c);
+//   console.log(babba);
+// }
+//
+// // {
+// //   var leep = multiply(a , b);
+// //   var sleep = multiply(leep, c);
+// //   console.log(sleep);
+// // }
+// //
+// sumAndMultiply(4 ,7, 5);
+// // Write your code here
+// function sumAndMultiply(a,b,c){ //eslint-disable-line
+//
+// }
+//
 // Here is the test for sumAndMultiply(); uncomment it to run it
 // testSumAndMultiply(4,7,5);
 
@@ -93,11 +106,11 @@ IMPORTANT DETAIL: You may not use the arithmetic operator + in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumArray() function and see if the test passes.*/
 
 // Write your code here
-var testArray = [2,3,4]; //eslint-disable-line
+// var testArray = [2,3,4]; //eslint-disable-line
+//
+// function sumArray(testArray){ //eslint-disable-line
 
-function sumArray(testArray){ //eslint-disable-line
-
-}
+// }
 
 // Here is the test for sumArray(); uncomment it to run it
 
@@ -116,9 +129,9 @@ IMPORTANT DETAIL: You may not use the arithmetic operator * in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
 // Write your code here
-function multiplyArray(testArray){ //eslint-disable-line
+// function multiplyArray(testArray){ //eslint-disable-line
 
-}
+// }
 
 // Here is the test for multiplyArray(); uncomment it to run it
 // testMultiplyArray(2,3,4);
