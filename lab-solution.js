@@ -61,3 +61,13 @@ function sumArray(testArray){
 var testArray = [2,3,4];
 ////////////////////////////////////////////////////////////
 // PROBELM 5
+function multiply(a,b){
+  var productm = a * b;
+}
+
+function multiplyArray(testArray){
+  var proArray = multiply(testArray[0] , testArray[1]);
+  var sproArry = multiply(proArray , testArray[2]);
+  return [sproArry, 'The numbers ' + ', ' + testArray[0] + ', ' + testArray[1] + ', ' + testArray[2] + ' have a product of ' + sproArry + '.'];
+}
+var testArray = [2,3,4];
